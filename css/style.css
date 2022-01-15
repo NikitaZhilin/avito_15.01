@@ -31,64 +31,102 @@ body{
 .text_1 {
     background-color: #97CF26;
     border-radius: 51.9762px;
-    padding: 0 28px 0;
+    padding: 0 28px 10px;
 }
 
 .text_2 {
     background-color: #FF6163;
     border-radius: 51.9762px;
-    padding: 0 28px 0;
+    padding: 0 28px 10px;
 }
 
 .text_3 {
     background-color: #A169F7;
     border-radius: 51.9762px;
-    padding: 0 28px 0;
+    padding: 0 28px 10px;
 }
 
 .text_4 {
     background-color: #00AAFF;
     border-radius: 51.9762px;
-    padding: 0 28px 0;
+    padding: 0 28px 10px;
     margin-left: 70px;
 }
 
 .text_5 {
-    background-color: #ffffff;
     box-shadow: 0px 2px 25px 2px rgba(47, 51, 64, 0.15);
     border-radius: 20px;
-    padding: 0 28px 0;
+    padding: 0 0 0 28px;
     font-weight: 800;
+    line-height: 30px;
+}
+
+.img_1{
+    width: 54px;
+    height: auto;
+    padding: 0 21px 0 10px;
+    vertical-align: center;
 }
 
 .text_6 {
-    background-color: #ffffff;
     box-shadow: 0px 2px 25px 2px rgba(47, 51, 64, 0.15);
     border-radius: 20px;
-    padding: 0 28px 0;
+    padding: 0 0 0 28px;
     font-weight: 800;
+    line-height: 30px;
+}
+
+.img_2{
+    width: 57px;
+    height: auto;
+    padding: 0 21px 0 10px;
+    vertical-align: center;
 }
 
 .text_7 {
     background-color: #ffffff;
     box-shadow: 0px 2px 25px 2px rgba(47, 51, 64, 0.15);
     border-radius: 20px;
-    padding: 0 28px 0;
+    padding: 0 0 0 28px;
     font-weight: 800;
+    line-height: 30px;
+}
+
+.img_3{
+    width: 52px;
+    height: auto;
+    padding: 0 21px 0 10px;
+    vertical-align: center;
 }
 
 .text_8 {
     background-color: #ffffff;
     box-shadow: 0px 2px 25px 2px rgba(47, 51, 64, 0.15);
     border-radius: 20px;
-    padding: 0 28px 0;
+    padding: 0 0 0 28px;
     font-weight: 800;
+    line-height: 30px;
+}
+
+.img_4{
+    width: 51px;
+    height: auto;
+    padding: 0 21px 0 10px;
+    vertical-align: center;
 }
 
 .text_9 {
     background-color: #ffffff;
     box-shadow: 0px 2px 25px 2px rgba(47, 51, 64, 0.15);
     border-radius: 20px;
-    padding: 0 28px 0;
+    padding: 0 0 0 28px;
     font-weight: 800;
+    line-height: 30px;
+}
+
+.img_5{
+    width: 52px;
+    height: auto;
+    padding: 0 21px 0 10px;
+    vertical-align: center;
 }
