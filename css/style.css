@@ -48,25 +48,25 @@ html,body{
 .text_1 {
     background-color: #97CF26;
     border-radius: 51.9762px;
-    padding: 0 28px 10px;
+    padding: 0 28px 0;
 }
 
 .text_2 {
     background-color: #FF6163;
     border-radius: 51.9762px;
-    padding: 0 28px 10px;
+    padding: 0 28px 0;
 }
 
 .text_3 {
     background-color: #A169F7;
     border-radius: 51.9762px;
-    padding: 0 28px 10px;
+    padding: 0 28px 0;
 }
 
 .text_4 {
     background-color: #00AAFF;
     border-radius: 51.9762px;
-    padding: 0 28px 10px;
+    padding: 0 28px 0;
     margin-left: 70px;
 }
 
@@ -91,6 +91,7 @@ html,body{
     padding: 0 0 0 28px;
     font-weight: 800;
     line-height: 30px;
+    white-space:nowrap;
 }
 
 .img_2{
@@ -149,10 +150,14 @@ html,body{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .container{
         max-width: 363px;
         min-width: 320px;
+    }
+
+    .text_container{
+        margin: 60px 0 0 0;
     }
 
     .textheader{
@@ -160,5 +165,7 @@ html,body{
         font-size: 40px;
         line-height: 52px;
     }
-
+    .text_1 {
+        margin: 0 0 5px 0;
+    }
 }
