@@ -149,8 +149,14 @@ html,body{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
+    .container {
+        max-width: 363px;
+        min-width: 320px;
+    }
+
     .text_container {
+        margin: 0 auto;
         font-size: 40px;
         line-height: 52px;
     }
