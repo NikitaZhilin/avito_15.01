@@ -30,24 +30,19 @@ html,body{
 
 .text_container {
     margin: 80px 132px 100px 82px;
-}
-
-.textheader {
     font-size: 70px;
     line-height: 90px;
     font-weight: 800;
     text-align: left;
 }
 
+
 .textblock_1{
     padding-bottom: 107px;
 }
 
 .textblock_2 {
-    font-size: 70px;
-    line-height: 90px;
     font-weight: normal;
-    text-align: left;
 }
 
 .text_1 {
@@ -151,4 +146,13 @@ html,body{
     height: auto;
     padding: 0 21px 0 10px;
     vertical-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .text_container {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
 }
