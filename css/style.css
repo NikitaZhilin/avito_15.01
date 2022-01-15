@@ -1,8 +1,30 @@
-body{
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+html,body{
     font-family: "lato", serif ;
 }
+
 .container {
-   width: 1250px;
+   max-width: 1250px;
    margin: 0 auto;
 }
 
@@ -111,7 +133,7 @@ body{
 .img_4{
     width: 51px;
     height: auto;
-    margin: 0 21px 0 10px;
+    padding: 0 21px 0 10px;
     vertical-align: center;
 }
 
